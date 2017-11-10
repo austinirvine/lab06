@@ -1,0 +1,18 @@
+------------------BUGLIST-------------------------------------------
+
+1. isEmpty - (Always returns true)
+
+2. addBack - does not add to the back of the List
+
+3. removeFront - does not change the list that I know of
+    *no size Change
+    *vector is unchanged
+    *Returns False even when list is not empty
+
+4. removeBack - does not change the list either
+    *size doesn't Change
+    *vector is the same
+    *Returns False even when list is not empty
+
+Conclusion -> I think most of the issues are caused by
+the isEmpty() method, although there are likely more issues.
